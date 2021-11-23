@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mnuAdd"
+        android:title="themMenu" />
+    <item
+        android:id="@+id/mnuSignIn"
+        android:title="Đăng Nhập" />
+    <item
+        android:id="@+id/mnuIntro"
+        android:title="GioiThieu" />
+</menu>

@@ -20,7 +20,7 @@
             android:src="@drawable/combo" />
 
         <LinearLayout
-            android:layout_toStartOf="@+id/img_like"
+            android:layout_toStartOf="@+id/img_btnlike"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
@@ -46,11 +46,11 @@
         </LinearLayout>
 
         <ImageView
-            android:id="@+id/img_like"
-            android:layout_centerVertical="true"
+            android:id="@+id/img_btnlike"
             android:layout_width="60dp"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
             android:padding="5dp"
             android:src="@drawable/like" />
 

@@ -19,7 +19,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseAuthException;
 public class DangKy extends AppCompatActivity {
 
-    EditText email,password;
+    EditText email,password,passwords;
     Button Signup,Signin,resetpassword,cancel;
     FirebaseAuth auth;
 
@@ -91,14 +91,15 @@ public class DangKy extends AppCompatActivity {
 
     }
 
+
+
     private void matching() {
 
-        email = findViewById(R.id.Signup_email);
-        password = findViewById(R.id.Signup_Password);
-        Signup = findViewById(R.id.signup_btn_signup);
-        Signin = findViewById(R.id.signup_btn_signin);
-        resetpassword = findViewById(R.id.signup_btn_resetpass);
-        cancel = findViewById(R.id.signup_btn_cancel);
+        email = findViewById(R.id.Dangky_et_InputEmail);
+        password = findViewById(R.id.Dangky_et_InputPassword);
+        passwords = findViewById(R.id.Dangky_et_InputNhaplaiPassword);
+        Signup = findViewById(R.id.Dangky_btn_signupDangky);
+        Signin = findViewById(R.id.Dangky_btn_signupDangnhap);
 
         cancel.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -57,7 +57,7 @@ public class QuenMatKhau extends AppCompatActivity {
 
     private void matching() {
         email = (EditText) findViewById(R.id.forget_etEmail);
-        send = (Button) findViewById(R.id.forget_btnSend);
+        send = (Button) findViewById(R.id.QMK_btnDongy);
         cancel = (Button) findViewById(R.id.forget_btnCancel);
         error = (TextView) findViewById(R.id.forget_tvError);
     }

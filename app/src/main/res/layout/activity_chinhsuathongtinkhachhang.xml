@@ -50,7 +50,7 @@
                     android:background="@android:color/transparent"
                     android:fontFamily="@font/roboto_medium"
                     android:gravity="center_horizontal"
-                    android:text="Thêm thông tin tài khoản"
+                    android:text="Chỉnh sửa thông tin "
                     android:textColor="#151515"
                     android:textSize="25sp" />
 
@@ -117,20 +117,20 @@
                         android:id="@+id/btn_Thems"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Thêm"
-                        android:background="@android:color/transparent"
-                        android:textColor="#151515"
                         android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:text="Xác Nhận"
+                        android:textColor="#151515"
                         android:textSize="20sp" />
 
                     <Button
-                        android:layout_weight="1"
                         android:id="@+id/btn_Xoas"
-                        android:background="@android:color/transparent"
-                        android:textColor="#151515"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Bỏ Qua"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:text="Xóa"
+                        android:textColor="#151515"
                         android:textSize="20sp" />
 
                 </LinearLayout>

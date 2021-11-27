@@ -45,14 +45,14 @@ public class ThemThongtincanhan extends AppCompatActivity {
 
     private void maching() {
 
-        fullname = (EditText) findViewById(R.id.et_Hovaten);
-        email = (EditText) findViewById(R.id.et_Email);
-        gioitinh= (EditText) findViewById(R.id.et_Gioitinh);
-        diachi = (EditText) findViewById(R.id.et_Diachi);
-        mobile = (EditText) findViewById(R.id.et_Phone);
-        cmnd= (EditText) findViewById(R.id.et_CMND);
-        add =(Button) findViewById(R.id.btn_Them);
-        cancel =(Button) findViewById(R.id.btn_Cance);
+        fullname = (EditText) findViewById(R.id.et_Hovatens);
+        email = (EditText) findViewById(R.id.et_Emails);
+        gioitinh= (EditText) findViewById(R.id.et_Gioitinhs);
+        diachi = (EditText) findViewById(R.id.et_Diachis);
+        mobile = (EditText) findViewById(R.id.et_Phones);
+        cmnd= (EditText) findViewById(R.id.et_CMNDs);
+        add =(Button) findViewById(R.id.btn_Thems);
+        cancel =(Button) findViewById(R.id.btn_Xoas);
 
     }
 

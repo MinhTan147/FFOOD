@@ -76,12 +76,12 @@ public class DangNhap extends AppCompatActivity {
     }
 
     private void maching() {
-        email = findViewById(R.id.signin_et_email);
-        password = findViewById(R.id.signin_et_password);
-        SignUp = findViewById(R.id.sign_btn_signup);
-        SignIn = findViewById(R.id.sign_btn_signin);
-        forgotPass = findViewById(R.id.signin_btn_resetpass);
-        Cancel= findViewById(R.id.sign_btn_cancel);
+        email = findViewById(R.id.Dangnhap_InputEmail);
+        password = findViewById(R.id.Dangnhap_et_InputPassword);
+        SignUp = findViewById(R.id.Dangnhap_btn_signinDangky);
+        SignIn = findViewById(R.id.Dangnhap_btn_signinDangnhap);
+        forgotPass = findViewById(R.id.Dangnhap_btn_signinquenmatkhau);
+
 
         Cancel.setOnClickListener(new View.OnClickListener() {
             @Override

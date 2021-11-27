@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FFOOD">
         <activity
+            android:name=".danhsach"
+            android:exported="false" />
+        <activity
             android:name=".Chinhsuathongtinkhachhang"
             android:exported="false" />
         <activity
